@@ -1,0 +1,52 @@
+
+form textarea{
+  height: 105px;
+  resize: none;
+}
+
+form input[type="radio"]{
+  margin: 15px 0;
+}
+
+form input[type="radio"]:not(:first-child){
+  margin-left: 15px;
+}
+
+.cliente{
+  margin-top: 30px;
+}
+
+.status span{
+  padding-left: .5em;
+  font-size: 1.3em;
+}
+
+.status{
+  display: flex;
+  flex-direction: row;
+}
+
+.status span{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  font-size: 1.1em;
+  margin-left: -50px;
+}
+
+@media screen and (max-width: 1200px){
+  form .button-register{
+    min-width: 100px;
+  }
+}
+@media screen and (max-width: 900px){
+  form .button-register{
+    min-width: 100px;
+  }
+
+  .status span:last-child{
+    margin-right: 50px;
+  }
+
+}
