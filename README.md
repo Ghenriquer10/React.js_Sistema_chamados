@@ -66,7 +66,7 @@ Disponibilizado através do Netlify
 <p/>
 
 <p align="center">Página de chamados com media queries</p>
-<p align="center" width="240" height="240">
+<p align="center">
   <img src="src/assets/responsivo_chamado.png"/>
 <p/>
 
