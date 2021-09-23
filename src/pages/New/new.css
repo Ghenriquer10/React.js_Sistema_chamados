@@ -23,16 +23,16 @@ form input[type="radio"]:not(:first-child){
 
 .status{
   display: flex;
-  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .status span{
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 200px;
+  width: 100px;
   font-size: 1.1em;
-  margin-left: -50px;
 }
 
 @media screen and (max-width: 1200px){
@@ -40,13 +40,16 @@ form input[type="radio"]:not(:first-child){
     min-width: 100px;
   }
 }
-@media screen and (max-width: 900px){
+@media screen and (max-width: 600px){
   form .button-register{
     min-width: 100px;
   }
 
-  .status span:last-child{
-    margin-right: 50px;
+  .status{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 
 }

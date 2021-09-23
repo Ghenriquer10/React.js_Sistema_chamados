@@ -66,8 +66,12 @@
   white-space: pre-wrap;
 }
 
-@media screen and (max-width: 900px){
+@media screen and (max-width: 600px){
   .modal .container{
-    width: 400px;
+    width: 300px;
+  }
+  .row:nth-child(3){
+    display: flex;
+    flex-direction: column;
   }
 }

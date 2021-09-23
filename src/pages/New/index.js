@@ -221,14 +221,20 @@ export default function New(){
 
             <label>Status:</label>
             <div className="status">
+              <span>
               <input type="radio" name="radio" value="Aberto" onChange={handleOptionChange} checked={ status === 'Aberto' }/>
-              <span>Aberto</span>
+                Aberto
+              </span>
 
+              <span>
               <input type="radio" name="radio" value="Progresso" onChange={handleOptionChange} checked={ status === 'Progresso'}/>
-              <span>Progresso</span>
+                Progresso
+              </span>
 
+              <span>
               <input type="radio" name="radio" value="Atendido" onChange={handleOptionChange} checked={ status === 'Atendido' }/>
-              <span>Atendido</span>
+                Atendido
+              </span>
             </div>
 
             <label>Complemento:</label>
