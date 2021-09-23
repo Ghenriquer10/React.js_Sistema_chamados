@@ -2,6 +2,10 @@
 
 ## Sistema de chamados criado em react.js
 
+## Disponibilizado através do Netlify
+
+Link: https://call-system.netlify.app 
+
 Aqui usei meu conhecimento adquirido no curso de react.js da Udemy.
 
 Nessa aplicação usei tecnologias do Html, Css, Firebase e JavaScript junto a biblioteca React.js.
@@ -27,8 +31,6 @@ No React.js usei tecnologias como:
 Apliquei responsividade através de midia queries para dispositivos menores.
 
 Através do Firebase foi possível salvar clientes, usuários e chamados, além de edita-los caso necessário.
-
-Disponibilizado através do Netlify
 
 <p align="center">Página de login</p>
 <p align="center">
